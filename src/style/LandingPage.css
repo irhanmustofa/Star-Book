@@ -1,0 +1,48 @@
+.MyBG {
+    height: 100vh;
+    background: url("../assets/image/main-bg.jpg");
+}
+
+.intro {
+    height: 40vh;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 5px;
+}
+.title2 {
+    color: tomato;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 5px;
+}
+.populer{
+    height: auto;
+    background: url("../assets/image/bg-populer.jpg");
+    background-size: cover;
+}
+
+.umum{
+    height: auto;
+    background: url("../assets/image/bg-umum.jpg");
+    background-size: cover;
+}
+
+.populerWrapper{
+
+}
+.gambarBuku{
+    height:auto;
+    background: black;
+    margin: 5px;
+    padding: 5px;
+}
+.imagepop{
+    height: 500px;
+}

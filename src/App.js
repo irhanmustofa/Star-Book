@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import './App.css'
+import NaigationBar from "./components/NavigationBar"
+import "./style/LandingPage.css"
+import Intro from "./components/Intro"
+import Populer from "./components/Populer"
+import Umum from "./components/Umum"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* intro section */}
+      <div className="MyBG">
+        <NaigationBar />
+        <Intro />
+      </div>
+      {/* end intro section */}
+
+      {/* populer section */}
+      <div className="populer">
+      <Populer />
+      </div>
+      {/* end populer section */}
+
+      {/* populer section */}
+      <div className="umum">
+      <Umum />
+      </div>
+      {/* end populer section */}
     </div>
   );
 }
